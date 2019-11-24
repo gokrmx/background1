@@ -1,7 +1,6 @@
 
 function setup() {
-  var canvas = createCanvas(600, 400);
-  canvas.parent('sketch-holder');
+  reateCanvas(600, 400);
   background(255);
 }
 
@@ -11,6 +10,7 @@ function draw() {
 
 function mouseReleased(){
   clear();
+  background(255);
 }
 
 //function windowResized(){
