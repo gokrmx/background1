@@ -1,6 +1,7 @@
 
+
 function setup() {
-  reateCanvas(600, 400);
+  createCanvas(windowWidth*0.4, 200);
   background(255);
 }
 
@@ -13,6 +14,6 @@ function mouseReleased(){
   background(255);
 }
 
-//function windowResized(){
-// resizeCanvas(windowWidth,windowHeight); 
-//}
+function resizeWindow(){
+ resizeCanvas(windowWidth*0.4, 200); 
+}
