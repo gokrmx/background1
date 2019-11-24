@@ -1,6 +1,9 @@
+var canvas;
+
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-background(255);
+  canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent('sketch-holder');
+  background(255);
 }
 
 function draw() {
