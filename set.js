@@ -71,7 +71,7 @@ function luna(x, y) {
   pop();
 }
 
-function nubes(x, y) {
+/*function nubes(x, y) {
   push();
   blendMode(DARKEST);
   translate(x, y);
@@ -105,7 +105,7 @@ function nubes(x, y) {
   zoff += 0.005;
 
   pop();
-}
+}*/
 
 function edificio(x, y) {
   push();
