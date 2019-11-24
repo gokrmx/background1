@@ -1,7 +1,7 @@
 
 
 function setup() {
-  createCanvas(windowWidth*0.4, 200);
+  createCanvas(windowWidth, 200);
   background(255);
 }
 
@@ -15,5 +15,5 @@ function mouseReleased(){
 }
 
 function resizeWindow(){
- resizeCanvas(windowWidth*0.4, 200); 
+ resizeCanvas(windowWidth, 200); 
 }
