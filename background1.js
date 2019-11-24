@@ -4,7 +4,7 @@ background(255);
 }
 
 function draw() {
-  point(mouseX, mouseY);
+  ellipse(mouseX, mouseY, 10, 10);
 }
 
 function mouseReleased(){
